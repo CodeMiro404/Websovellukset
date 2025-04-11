@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My First HTML Page</title>
-    <link rel="stylesheet" href="index.css">
- </head>
+    <head>
+        <title>My First HTML Page</title>
+        <style>
+          h1 {
+            color: greenyellow;
+          }
+        </style>
+    </head>
     <body>
-      <h1>Welcome to my Page</h1>
-      <p>This is a paragraph.</p>
-      <img src="C:/Users/miros/Pictures/Dallas_Stars_logo_(2013).svg.png" alt="Didnt find a photo of me">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="styles.css">
+        <h1>Miro Mäkelä</h1>
+        <p>I'm a 26 years old student from Laurea. I enjoy spending time with tech and computers and I've come to realize that I really like learning to write code!</p>
+        <img src="C:/Users/miros/Downloads/miro-kuva" alt="This is my LinkedIn profile picture">
+        <h2>My hobbies</h2>
+        <ol>
+            <li>Playing video games</li>
+            <li>Producing music</li>
+            <li>Watching movies and series</li>
+        </ol>
+        <h3>Things I dislike</h3>
+        <ul>
+            <li>Waking up real early</li>
+            <li>Maksalaatikko</li>
+            <li>I really dislike Maksalaatikko</li>
+        </ul>
+        <a href="https://www.linkedin.com/in/miro-m%C3%A4kel%C3%A4-4870b1191/">My LinkedIn profile</a>
+        <table>
+            <tr>
+                <th>Completed courses and grades</th>
+                <th>Ongoing courses</th>
+            </tr>
+            <tr>
+                <td>ICT infrastruktuuri ja pilvipalvelut 5</td>
+                <td>Websivuston kehittäminen</td>
+            </tr>
+            <tr>
+                <td>Digitaalisten palveluiden perusteet 5</td>
+                <td>Professional English</td>
+            </tr>
+        </table>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
 
-<h2>Ordered List</h2>
-<ol>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-</ol>
+        <button class="transition-button">Hover me please</button>
 
-<h2>Unordered List</h2>
-<ul>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-</ul>
-<a href="https://www.laurea.fi">Visit Laurea</a>
-<table>
-  <tr>
-    <th>Header 1</th>
-    <th>Header 2</th>
-  </tr>
-  <tr>
-    <td>Row 1, Cell 1</td>
-    <td>Row 1, Cell 2</td>
-  </tr>
-  <tr>
-    <td>Row 2, Cell 1</td>
-    <td>Row 2, Cell 2</td>
-  </tr>
-</table>
-<form>
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name"><br><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <input type="submit" value="Submit">
-</form>
-<h1 style="color: red;">This is a heading</h1>
-<button class="transition-button">Hover me</button>
-<div class="animation-box"></div>
-<ul class="pseudo-list">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
-</ul>
-<img src="C:/Users/miros/Pictures/Dallas_Stars_logo_(2013).svg.png" alt="Sample Image" class="filter-image">
-<blockquote class="quote">
-  Never stop living.
-</blockquote>
-</body>
+        <div class="animation-box"></div>
+
+        <ul class="pseudo-list">
+            <li>Red Bull</li>
+            <li>Monster</li>
+            <li>Red Devil</li>
+            <li>ED</li>
+        </ul>
+
+        <img src="C:/Users/miros/Downloads/miro-kuva" alt="Sample Image" class="filter-image">
+
+        <blockquote class="quote">
+            Kehitys loppuu tyytyväisyyteen.
+        </blockquote>
+    </body>
 </html>
